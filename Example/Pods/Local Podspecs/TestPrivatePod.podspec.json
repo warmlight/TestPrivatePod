@@ -1,0 +1,27 @@
+{
+  "name": "TestPrivatePod",
+  "version": "0.1.0",
+  "summary": "A short description of TestPrivatePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/462451377@qq.com/TestPrivatePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "462451377@qq.com": "yiyi.liu@guanaitong.com"
+  },
+  "source": {
+    "git": "https://github.com/462451377@qq.com/TestPrivatePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestPrivatePod/Classes/**/*",
+  "dependencies": {
+    "WLActionSheet": [
+      "0.1.0"
+    ]
+  }
+}

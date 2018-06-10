@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/warmlight/WLActionSheet'
+use_frameworks!
+
+target 'TestPrivatePod_Example' do
+  pod 'TestPrivatePod', :path => '../'
+
+  target 'TestPrivatePod_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0.2'
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'Nimble-Snapshots' , '~> 6.3.0'
+    pod 'WLActionSheet', '0.1.0'
+  end
+end
